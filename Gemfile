@@ -14,9 +14,10 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
+  gem 'rspec-rails'
 end
 group :production do
-#  gem 'pg'
+  gem 'pg'
 end
 
 # Gems used only for assets and not required
